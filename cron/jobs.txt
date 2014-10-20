@@ -1,0 +1,1 @@
+* * * * * python /home/martin/Projekty/Online-textovky/cron/check_chat_users.py

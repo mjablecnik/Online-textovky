@@ -1,0 +1,18 @@
+<h3>Registrace</h3>
+
+<%#end%>
+<%=flashmessage=%>
+<center>
+	<form action="registrace_send" method="post">
+		<table class="registration_form" >
+			<tr><td> Email: </td><td> <input type="text" name="email" value=""> </td></tr>
+			<tr><td> Heslo: </td><td> <input type="password" name="pass1" value=""> </td></tr>
+			<tr><td> Heslo podruhé: </td><td> <input type="password" name="pass2" value=""> </td></tr>
+			
+			<tr><td>  </td><td> <input type="submit" value="Registrovat"> </td></tr>
+		</table>
+	</form>
+	
+	<p>Pokud již máte založený účet, můžete se <a href="/prihlaseni">přihlásit</a>.</p>
+</div>
+
